@@ -1,21 +1,21 @@
 (function() {
-  'use strict';
+    'use strict';
 
-  angular
-    .module('repasses')
-    .config(routeConfig);
+    angular
+        .module('repasses')
+        .config(routeConfig);
 
-  /** @ngInject */
-  function routeConfig($stateProvider, $urlRouterProvider) {
-    $stateProvider
-      .state('home', {
-        url: '/',
-        templateUrl: 'app/main/main.html',
-        controller: 'MainController',
-        controllerAs: 'main'
-      });
+    /** @ngInject */
+    function routeConfig($stateProvider, $urlRouterProvider) {
+        $stateProvider
+            .state('home', {
+                url: '/',
+                templateUrl: 'app/main/main.html',
+                controller: 'MainController',
+                controllerAs: 'main'
+            });
 
-    $urlRouterProvider.otherwise('/');
-  }
+        $urlRouterProvider.otherwise('/');
+    }
 
 })();

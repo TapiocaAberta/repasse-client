@@ -1,7 +1,7 @@
 (function() {
-  'use strict';
+    'use strict';
 
-  angular
-    .module('repasses', ['ngResource', 'ui.router', 'ui.bootstrap']);
+    angular
+        .module('repasses', ['ngResource', 'ui.router', 'ui.bootstrap']);
 
 })();
