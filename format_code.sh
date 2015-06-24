@@ -7,7 +7,6 @@ set -e
 find src \( \
          -path ./bower_components -o \
          -path ./node_modules -o \
-         -path ./app/scripts/vendor -o \
          -path ./dist \
        \) -prune -o \
     -name '*.js' \
