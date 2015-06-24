@@ -4,13 +4,10 @@
 
 set -e
 
-find src \( \
-         -path ./bower_components -o \
-         -path ./node_modules -o \
-         -path ./dist \
-       \) -prune -o \
-    -name '*.js' \
-    -or -name '*.html' \
-    -or -name '*.css' \
-    -or -name '*.json' \
-    | xargs js-beautify --quiet --replace || true
+find -regex ".*\.\(js\|json\|css\|html\)" \
+    -not -path "./bower_components/*" \
+    -not -path "./node_modules/*" \
+    -not -path "./dist/*" \
+    -not -path "./.publish/*" \
+    -not -path "./.tmp/*" \
+    | xargs js-beautify --quiet --replace
