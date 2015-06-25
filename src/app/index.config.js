@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('repasses')
+        .module('repasse')
         .config(config);
 
     /** @ngInject */

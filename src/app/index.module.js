@@ -2,6 +2,6 @@
     'use strict';
 
     angular
-        .module('repasses', ['ngResource', 'ui.router', 'ui.bootstrap']);
+        .module('repasse', ['ngResource', 'ui.router', 'ui.bootstrap']);
 
 })();

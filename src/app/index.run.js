@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('repasses')
+        .module('repasse')
         .run(runBlock);
 
     /** @ngInject */

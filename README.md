@@ -1,5 +1,5 @@
-# repasses-client
-FrontEnd do projeto repasses.
+# repasse-client
+FrontEnd do projeto repasse.
 
 **In This Documentation**
 
@@ -101,7 +101,7 @@ The root directory generated for a app with name `gulpAngular` :
 
 ## Changelog
 
-[All changes listed in the GitHub releases](https://github.com/transparenciasjc/repasses-client/releases)
+[All changes listed in the GitHub releases](https://github.com/transparenciasjc/repasse-client/releases)
 
 ## Contributing
 

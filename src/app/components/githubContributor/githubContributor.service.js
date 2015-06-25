@@ -2,12 +2,12 @@
     'use strict';
 
     angular
-        .module('repasses')
+        .module('repasse')
         .factory('githubContributor', githubContributor);
 
     /** @ngInject */
     function githubContributor($log, $http) {
-        var apiHost = 'https://api.github.com/repos/transparenciasjc/repasses-client';
+        var apiHost = 'https://api.github.com/repos/transparenciasjc/repasse-client';
 
         var service = {
             apiHost: apiHost,

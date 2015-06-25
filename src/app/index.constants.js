@@ -3,7 +3,7 @@
     'use strict';
 
     angular
-        .module('repasses')
+        .module('repasse')
         .constant('malarkey', malarkey)
         .constant('toastr', toastr)
         .constant('moment', moment);

@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('repasses')
+        .module('repasse')
         .controller('MainController', MainController);
 
     /** @ngInject */
@@ -24,7 +24,7 @@
         }
 
         function showToastr() {
-            toastr.info('Fork <a href="https://github.com/transparenciasjc/repasses-client" target="_blank"><b>generator-gulp-angular</b></a>');
+            toastr.info('Fork <a href="https://github.com/transparenciasjc/repasse-client" target="_blank"><b>generator-gulp-angular</b></a>');
             vm.classAnimation = '';
         }
 

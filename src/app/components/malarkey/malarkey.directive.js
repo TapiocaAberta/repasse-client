@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('repasses')
+        .module('repasse')
         .directive('acmeMalarkey', acmeMalarkey);
 
     /** @ngInject */
@@ -53,7 +53,7 @@
 
             vm.contributors = [];
 
-            activate();
+            //activate();
 
             function activate() {
                 return getContributors().then(function() {
