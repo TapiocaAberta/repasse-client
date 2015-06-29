@@ -1,11 +1,14 @@
-'use strict';
+(function() {
+    'use strict';
 
-angular.module('testApiApp')
-    .config(function($stateProvider) {
-        $stateProvider
-            .state('compare', {
-                url: '/compare',
-                templateUrl: 'app/analyse/compare/compare.html',
-                controller: 'CompareCtrl'
-            });
-    });
+    angular.module('repasse')
+        .config(function($stateProvider) {
+            $stateProvider
+                .state('compare', {
+                    url: '/compare',
+                    templateUrl: 'app/analyse/compare/compare.html',
+                    controller: 'CompareCtrl'
+                });
+        });
+
+})();

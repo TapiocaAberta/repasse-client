@@ -1,6 +1,9 @@
-'use strict';
+(function() {
+    'use strict';
 
-angular.module('testApiApp')
-    .controller('CompareCtrl', function($scope) {
-        $scope.message = 'Hello';
-    });
+    angular.module('repasse')
+        .controller('CompareCtrl', function($scope) {
+            $scope.message = 'Hello';
+        });
+
+})();

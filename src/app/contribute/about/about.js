@@ -1,11 +1,14 @@
-'use strict';
+(function() {
+    'use strict';
 
-angular.module('testApiApp')
-    .config(function($stateProvider) {
-        $stateProvider
-            .state('about', {
-                url: '/about',
-                templateUrl: 'app/contribute/about/about.html',
-                controller: 'AboutCtrl'
-            });
-    });
+    angular.module('repasse')
+        .config(function($stateProvider) {
+            $stateProvider
+                .state('about', {
+                    url: '/about',
+                    templateUrl: 'app/contribute/about/about.html',
+                    controller: 'AboutCtrl'
+                });
+        });
+
+})();

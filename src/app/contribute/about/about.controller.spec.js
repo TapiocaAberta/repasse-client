@@ -1,21 +1,24 @@
-'use strict';
+(function() {
+    'use strict';
 
-describe('Controller: AboutCtrl', function() {
+    describe('Controller: AboutCtrl', function() {
 
-    // load the controller's module
-    beforeEach(module('testApiApp'));
+        // load the controller's module
+        beforeEach(module('repasse'));
 
-    var AboutCtrl, scope;
+        var AboutCtrl, scope;
 
-    // Initialize the controller and a mock scope
-    beforeEach(inject(function($controller, $rootScope) {
-        scope = $rootScope.$new();
-        AboutCtrl = $controller('AboutCtrl', {
-            $scope: scope
+        // Initialize the controller and a mock scope
+        beforeEach(inject(function($controller, $rootScope) {
+            scope = $rootScope.$new();
+            AboutCtrl = $controller('AboutCtrl', {
+                $scope: scope
+            });
+        }));
+
+        it('should ...', function() {
+            expect(1).toEqual(1);
         });
-    }));
-
-    it('should ...', function() {
-        expect(1).toEqual(1);
     });
-});
+
+})();
